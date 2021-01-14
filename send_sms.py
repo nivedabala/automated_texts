@@ -9,9 +9,9 @@ GOOD_MORNING_QUOTES = [
 
 def send_message(quotes_list=GOOD_MORNING_QUOTES):
     # Your Account SID from twilio.com/console
-    account_sid = "AC0c9503f44dcae3159e5f1b36616d8190"
+    account_sid = ""
     # Your Auth Token from twilio.com/console
-    auth_token  = "06a76ade34cb0cc4b24d078723637e54"
+    auth_token  = ""
 
     client = Client(account_sid, auth_token)
 
